@@ -3,20 +3,19 @@
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    text-align: center;
 }
 
 
 .hero-row {
     display: inline-block;
     width: 600px;
-    height: 400px;
+    height: 250px;
     margin-left: calc((100% - 600px) / 2);
 }
 .row {
     display: inline-block;
     width: 1000px;
-    margin-left: calc((100% - 600px) / 2);
+    margin-left: calc((100% - 1000px) / 2);
 }
     .left-column {
         display: inline-block;
