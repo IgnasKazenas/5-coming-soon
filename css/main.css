@@ -18,7 +18,35 @@
         display: inline-block;
         width: 800px;
         margin-left: calc((100% - 800px) / 2);
+        text-align: center;
     }
+        .hero-row > .form {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 20px;
+        }
+        .hero-row > .logo {
+            object-fit: contain;
+            height: 20px;
+            width: 100%;
+            object-fit: contain;
+            object-position: center;
+            margin-bottom: 60px;
+        }
+        .title {
+            font-size: 60px;
+            margin-bottom: 30px;
+        }
+        .sub-title {
+            font-size: 22px;
+            line-height: 30px;
+            margin-bottom: 60px;
+        }
+        .clock {
+            margin-bottom: 60px;
+        }
+
         .bg-blue {
             background-color: #03a9f4;
         }
@@ -28,7 +56,7 @@
             background-size: cover;
             background-position: bottom center;
             background-attachment: fixed;
-            height: 250px;
+            /* height: 250px; */
         }
 
 .row {
