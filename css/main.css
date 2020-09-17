@@ -24,7 +24,7 @@
     .hero-row {
         display: inline-block;
         width: 800px;
-        margin-left: calc((100% - 800px) / 2);
+        /* margin-left: calc((100% - 800px) / 2); */
         text-align: center;
     }
         .hero-row > .form {
@@ -68,23 +68,75 @@
 
 .row {
     display: inline-block;
-    width: 100%;
-    text-align: center;
-    /* margin-left: calc((100% - 800px) / 2); */
+    width: 800px;
+    /* text-align: center; */
+    margin-left: calc((100% - 800px) / 2);
+    margin-right: calc((100% - 800px) / 2);
 }
+    .row > a {
+        color:white;
+    }
+    .container.bg-blue {
+        text-align: center;
+    }
     .socials {
         display: inline-block;
-        width: 50%;
+        width: 100%;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #fff;
     }
-        a {
+        .socials > a {
+            width: 40px;
+            height: 40px;
             text-decoration: none;
             text-align: center;
+            /* padding: 10px 0 10px 0; */
+            color: #fff;
+            border-radius: 50%;
+            /* background-color: red; */
+            line-height: 40px;
+            margin: 5px;
         }
-    .texts {
-        display: inline-block;
-        width: 50%;
-        background-color: chartreuse;
+        .socials > a:hover {
+            background-color: white;
+            color: black;
+        }
+    footer.container {
+        padding-top: 0;
     }
+    .footer-texts {
+        display: inline-block;
+        width: 100%;
+        /* background-color: chartreuse; */
+    }
+    .texts.borders {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+        .footer-texts > .logo {
+            margin-bottom: 40px;
+        }
+
+        .copyright {
+            display: inline-block;
+            color: #2fc9fb;
+            /* width: 30%; */
+        }
+            .copyright > a {
+                color: white;
+            }
+        .texts {
+            display: inline-block;
+            color: #2fc9fb;
+        }
+        .texts > a {
+            color: white;
+        }
+            .footer-texts a {
+
+            }
 
 /* RESPONSIVE */
 @media (max-width: 800px) {
