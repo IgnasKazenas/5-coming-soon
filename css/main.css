@@ -68,13 +68,18 @@
 
 .row {
     display: inline-block;
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
+    width: 100%;
+    text-align: center;
+    /* margin-left: calc((100% - 800px) / 2); */
 }
     .socials {
         display: inline-block;
         width: 50%;
     }
+        a {
+            text-decoration: none;
+            text-align: center;
+        }
     .texts {
         display: inline-block;
         width: 50%;
