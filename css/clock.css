@@ -1,0 +1,17 @@
+.clock {
+    display: inline-block;
+    width: 100%;
+    color:white;
+}
+    .clock > .time {
+        float: left;
+        width: 20%;
+    }
+        .time > .value {
+            width: 100%;
+            font-size: 40px;
+        }
+        .time > .label {
+            width: 100%;
+            font-size: 15px;
+        }
